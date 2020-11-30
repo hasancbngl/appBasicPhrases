@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/hellogoodmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="Hello &#10; Good morning"
+            android:textColor="#F10909"
+            android:textColorLink="#E10A0A"
+            android:textSize="9dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="hellogoodmorning"/>
+
+        <Button
+            android:id="@+id/howareu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How are &#10;you ?"
+            android:textColor="#F40808"
+            android:textSize="9dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="howareu"/>
+
+        <Button
+            android:id="@+id/howoldareu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="How old &#10; are you?"
+            android:textColor="#F80B0B"
+            android:textSize="9dp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="howoldareu"/>
+
+
+        <Button
+            android:id="@+id/imsorry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm sorry"
+            android:textColor="#092EFB"
+            android:textSize="9dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="imsorry"/>
+
+        <Button
+            android:id="@+id/thankyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DD9A9A"
+            android:text="Thank you"
+            android:textColor="#092EFB"
+            android:textSize="9dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="thankyou"/>
+
+        <Button
+            android:id="@+id/nicetomeetu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nice to&#10; meet you."
+            android:textColor="#0E31F4"
+            android:textSize="9dp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="nicetomeetu"/>
+
+
+        <Button
+            android:id="@+id/doyouspeakenglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F1EAEA"
+            android:text="Do you &#10;speak english?"
+            android:textColor="#04F367"
+            android:textSize="9dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="doyouspeakenglish"/>
+
+        <Button
+            android:id="@+id/goodafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D0C6D5"
+            android:text="Good &#10; Afternoon!"
+            android:textColor="#05F468"
+            android:textSize="9dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="goodafternoon"/>
+
+        <Button
+            android:id="@+id/mynameis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#B39292"
+            android:text="My name's.."
+            android:textColor="#07F66A"
+            android:textSize="9dp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="mynameis"/>
+
+
+        <Button
+            android:id="@+id/whereareufrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where are&#10; you from?"
+            android:textColor="#F46C07"
+            android:textSize="9dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="whereareufrom"/>
+
+        <Button
+            android:id="@+id/whatsyourname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EFDCDC"
+            android:text="What's &#10;your name?"
+            android:textColor="#F46C07"
+            android:textSize="9dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="whatsyourname"/>
+
+        <Button
+            android:id="@+id/yourewelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F3E4E4"
+            android:text="You're welcome"
+            android:textColor="#FB6E05"
+            android:textSize="9dp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:onClick="buttonTapped"
+            android:tag="yourewelcome"/>
+
+
+
+
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
